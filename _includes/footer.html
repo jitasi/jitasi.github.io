@@ -1,0 +1,21 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+  <!--div>Tags</div>
+    <ul>
+      {% for tag in site.tags %}
+        <li>{{ tag[0] }}</li>
+      {% endfor %}
+    </ul-->
+
+    <p>{{- site.description | escape -}}</p>
+
+    <div class="social-links">
+      {%- include social.html -%}
+    </div>
+
+  </div>
+
+</footer>
