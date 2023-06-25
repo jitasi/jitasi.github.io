@@ -52,3 +52,5 @@ disqus:
 google_analytics: UA-569323-2
 
 permalink: blog/:year/:title.html
+
+exclude: ["favicon.ico"]
