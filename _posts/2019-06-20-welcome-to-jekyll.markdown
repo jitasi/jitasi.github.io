@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2019-06-29 00:17:46 -0700
 categories: jekyll update
-tags: tag-jekyll tag-update
+tags: jekyll
 comments: "true"
 inlinecomments: "true"
 mathjax: "true"
