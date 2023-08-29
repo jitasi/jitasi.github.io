@@ -12,7 +12,9 @@
   {%- if site.mathjax -%}
     {%- include mathjax.html -%}
   {%- endif -%}
+  <!--
   {% if site.tags != "" %}
     {% include collecttags.html %}
-  {% endif %}
+  {% endif %}-->
+  {% include archive.html %}
 </head>
