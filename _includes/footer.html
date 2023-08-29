@@ -4,11 +4,13 @@
   <div class="wrapper">
 
   <div>Tags</div>
-    <ul>
+    <!--ul>
       {% for tag in site.tags %}
         <li>{{ tag[0] }}</li>
       {% endfor %}
-    </ul>
+    </ul-->
+
+    {% include archive.html %}
 
     <p>{{- site.description | escape -}}</p>
 
