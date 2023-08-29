@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: math"
+title: "Tag: Math Others"
 tag: math
 ---
