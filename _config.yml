@@ -53,6 +53,6 @@ paginate_path: "/blog/page:num/"
 disqus:
   shortname: jitasi 
 
-google_analytics: UA-569323-2
+google_analytics: G-20XENX6JCX
 
 permalink: blog/:year/:title.html
