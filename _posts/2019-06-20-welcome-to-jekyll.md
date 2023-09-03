@@ -29,6 +29,7 @@ When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
   $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
 Youtube video can be embbeded:
+{% youtube "https://www.youtube.com/watch?v=vhm8ri0XNBM" %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
