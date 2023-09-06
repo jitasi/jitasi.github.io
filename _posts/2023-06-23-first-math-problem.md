@@ -2,7 +2,6 @@
 layout: post
 title:  "The First Math Problem"
 date:   2023-06-23 00:17:46 -0700
-categories: math counting
 tags: counting
 comments: "true"
 inlinecomments: "true"
