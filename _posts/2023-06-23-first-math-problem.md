@@ -10,6 +10,8 @@ mathjax: "true"
 ---
 (Lehigh MC-2018-19) How many 6-digit numbers whose leftmost digit is 1 have exactly two pairs of identical digits (and no digit occurs three or more times)?
 
+<!--more-->
+
 Note 1: Casework is often an effective approach for solving a wide range of counting problems that involve digits or numbers.
 
 Solution: 
