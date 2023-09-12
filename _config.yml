@@ -44,7 +44,7 @@ exclude: [favicon.ico, Gemfile, Gemfile.lock]
 #   - vendor/ruby/
 
 show_excerpts: YES
-paginate: 5
+paginate: 10
 paginate_path: "/blog/page:num/"
 
 disqus:
