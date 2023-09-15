@@ -7,10 +7,20 @@
 
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+    <main class="page-content" aria-label="Content" style="display:flex; width:100%">
+      <div class="side-pannel" style="width:2%"></div>
+      <div class="side-pannel" style="width:15%">
+      </div>
+      <div class="wrapper" style="width:66%">
         {{ content }}
       </div>
+      <div class="side-pannel" style="width:15%">
+        <div style="font-weight: bold;">Tags:</div>
+        <div>
+          {% include archive.html %}
+        </div>
+      </div>
+      <div class="side-pannel" style="width:2%"></div>
     </main>
 
     {%- include footer.html -%}
