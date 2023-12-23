@@ -13,9 +13,9 @@ layout: default
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
       {%- for post in paginator.posts -%}
-      {% if post.categories contains "presentation" %}
+      {%- if post.categories contains "presentation" -%}
         <!--  don't show presentations -->
-      {% else %}
+      {%- else -%}
 
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -30,38 +30,38 @@ layout: default
         {%- endif -%}
       </li>
 
-      {% endif %}
+      {%- endif -%}
       {%- endfor -%}
     </ul>
 
     {%- include mathjax.html -%}
 
     <!-- Pagination links -->
-    {% if paginator.total_pages > 1 %}
+    {%- if paginator.total_pages > 1 -%}
       <div class="pagination">
-        {% if paginator.previous_page %}
+        {%- if paginator.previous_page -%}
           <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
-        {% else %}
+        {%- else -%}
           <span>&laquo; Prev</span>
-        {% endif %}
+        {%- endif -%}
 
-        {% for page in (1..paginator.total_pages) %}
-          {% if page == paginator.page %}
+        {%- for page in (1..paginator.total_pages) -%}
+          {%- if page == paginator.page -%}
             <em>{{ page }}</em>
-          {% elsif page == 1 %}
+          {%- elsif page == 1 -%}
             <a href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a>
-          {% else %}
+          {%- else -%}
             <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
-          {% endif %}
-        {% endfor %}
+          {%- endif -%}
+        {%- endfor -%}
 
-        {% if paginator.next_page %}
+        {%- if paginator.next_page -%}
           <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
-        {% else %}
+        {%- else -%}
           <span>Next &raquo;</span>
-        {% endif %}
+        {%- endif -%}
       </div>
-    {% endif %}
+    {%- endif -%}
 
     <!--p class="feed-subscribe">
       <a href="{{ 'feed.xml' | relative_url }}">

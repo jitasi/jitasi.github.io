@@ -7,18 +7,18 @@ theme: league
 transition: slide
 ---
 <section data-markdown>
-##Composition in Ruby
-###extend vs. include
+## Composition in Ruby
+### extend vs. include
 </section>
 <section data-markdown>
 module behavior can be *mixed-in* to other objects
 </section>
 <section data-markdown>
-###`extend`
+### `extend`
 
 - Defined on `Object` (including `Module` and `Class`!)
 
-###`include`
+### `include`
 
 - Defined on `Module`
 
