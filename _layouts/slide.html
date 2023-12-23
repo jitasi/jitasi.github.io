@@ -45,7 +45,6 @@
     </script>
 
     <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | prepend: site.baseurl }}" />
-
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!--[if lt IE 9]>
@@ -61,8 +60,6 @@
       </div>
     </div>
 
-    <link rel="stylesheet" href="{{ "/reveal.js/plugin/drawer/drawer.css" | prepend: site.baseurl }}"/>
-
     <script src="{{ "/reveal.js/dist/reveal.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/reveal.js/plugin/markdown/markdown.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/reveal.js/plugin/search/search.js" | prepend: site.baseurl }}"></script>
@@ -71,6 +68,8 @@
     <script src="{{ "/reveal.js/plugin/zoom/zoom.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/reveal.js/plugin/highlight/highlight.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/reveal.js/plugin/menu/menu.js" | prepend: site.baseurl }}"></script>
+    <!-- Drawer plugin -->
+    <link rel="stylesheet" href="{{ "/reveal.js/plugin/drawer/drawer.css" | prepend: site.baseurl }}"/>
     <script src="{{ "/reveal.js/plugin/drawer/drawer.js" | prepend: site.baseurl }}"></script>
 
     <script>
@@ -103,7 +102,19 @@
             skipHtmlTags: [ 'script', 'noscript', 'style', 'textarea', 'pre' ]
           },
         },
-				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMenu, RevealDrawer, RevealMath.MathJax3 ]
+
+        drawer: {
+          toggleDrawKey: "d", // (optional) key to enable drawing, default "d"
+          toggleBoardKey: "t", // (optional) key to show drawing board, default "t"
+          colors: ["#fa1e0e", "#8ac926", "#1982c4", "#ffca3a"], // (optional) list of colors avaiable (hex color codes)
+          color: "#FF0000", // (optional) color of a cursor, first color from `codes` is a default
+          pathSize: 2, // (optional) path size in px, default 4
+        },
+
+				plugins: [
+          RevealZoom, RevealNotes, RevealSearch, RevealMarkdown,
+          RevealHighlight, RevealMenu, RevealDrawer, RevealMath.MathJax3
+        ]
       });
 
     </script>
