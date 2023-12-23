@@ -66,6 +66,7 @@
     <script src="{{ "/reveal.js/dist/reveal.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/reveal.js/plugin/markdown/markdown.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/reveal.js/plugin/search/search.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/reveal.js/plugin/math/math.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/reveal.js/plugin/notes/notes.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/reveal.js/plugin/zoom/zoom.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/reveal.js/plugin/highlight/highlight.js" | prepend: site.baseurl }}"></script>
@@ -87,7 +88,22 @@
         {% endif %}
 
         // Optional reveal.js plugins
-				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMenu, RevealDrawer ]
+        menu: {
+          themes: true,
+          themesPath: '/reveal.js/dist/theme/',
+          transitions: true,
+        },
+
+        mathjax3: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
+          tex: {
+            inlineMath: [ [ '$', '$' ], [ '\\(', '\\)' ]  ]
+          },
+          options: {
+            skipHtmlTags: [ 'script', 'noscript', 'style', 'textarea', 'pre' ]
+          },
+        },
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMenu, RevealDrawer, RevealMath.MathJax3 ]
       });
 
     </script>

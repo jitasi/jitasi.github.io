@@ -24,6 +24,16 @@ module behavior can be *mixed-in* to other objects
 
 (remember, Classes are Modules too)
 </section>
+
+<section>
+  <h2>The Lorenz Equations</h2>
+  \[\begin{aligned}
+  \dot{x} &amp; = \sigma(y-x) \\
+  \dot{y} &amp; = \rho x - y - xz \\
+  \dot{z} &amp; = -\beta z + xy
+  \end{aligned} \]
+</section>
+
 <section>
     <section data-markdown>
         <pre><code>
