@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Intensive Practice on Casework"
+title:  "Casework, Intensive Practice with"
 date:   2023-12-27 00:12:00 -0700
-tags: counting
+tags: counting ip
 comments: "true"
 inlinecomments: "true"
 mathjax: "true"
 publish_hint: "true"
 publish_solution: "false"
 publish_readmore: "false"
+permalink: "ip/casework"
 ---
   Casework is a powerful problem-solving approach to solve challenge problems in mathematical competition, especially for counting problems. It involves splitting a problem into several parts, solving these parts individually, then combining together the solutions of each part.
 
