@@ -36,7 +36,7 @@ publish_readmore: "false"
 - If constant $a$ makes the equation of $lg(x^2 + 20 x) - lg (8 x - 6 a - 3) = 0$ have only one solution. What’s the range of constant $a$?
   <details>
     <summary>Answer</summary>
-    $-\frac{163/6} < a < -\frac{1}{2}$
+    $-\frac{163}{6} < a < -\frac{1}{2}$
   </details>
    <br />
 
