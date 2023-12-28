@@ -23,7 +23,7 @@ publish_readmore: "false"
 
 - The cube with an edge length of $5$ is cut into $125$ small cubes with an edge length of $1$. How many times should we cut at least?
 
-- If constant $a$ makes the equation of $$lg(x^2 + 20 x) - lg (8 x - 6 a - 3) = 0$$ have only one solution. What’s the range of constant $a$?
+- If constant $a$ makes the equation of $lg(x^2 + 20 x) - lg (8 x - 6 a - 3) = 0$ have only one solution. What’s the range of constant $a$?
 
 - There are five people practicing on the basketball court. Their tactics are: A starts serving (the first serve), after $6$ serves and runs (everyone has equal chances to serve and receive the ball), and returns to A. How many different ways are there to pass the ball?
 
