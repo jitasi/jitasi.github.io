@@ -2,7 +2,7 @@
 layout: post
 title:  "Casework, Intensive Practice with"
 date:   2023-12-27 00:12:00 -0700
-tags: counting ip
+tags: ip counting
 comments: "true"
 inlinecomments: "true"
 mathjax: "true"
@@ -13,6 +13,8 @@ permalink: "ip/casework"
   During the recent practice, I have noticed that many students appear to lack confidence and comfort when applying casework to solve problems.
 
   Having more practice is always beneficial, irrespective of the underlying reasons.
+
+  Difficulty: AMC10/12, AIME
 
 <!--more-->
 
