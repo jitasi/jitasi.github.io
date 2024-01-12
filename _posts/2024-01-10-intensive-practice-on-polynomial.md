@@ -20,12 +20,25 @@ permalink: "ip/polynomial"
     <summary>Answer</summary>
     a=3 and b=-5
   </details>
+  <details>
+    <summary>Hint</summary>
+    <ul>
+      <li>The root of $x^2 - x - 1$ is also the root of $ax^5 + bx^4 + 1$.</li>
+      <li>Vieta's Formula for Quadratic Equation.</li>
+    </ul>
+  </details>
    <br />
 
 - If polynomial $x^2 - x + 1$ is a factor of polynomial $x^3 + x^2 + ax + b$ (where $a$ and $b$ are constants), what's the value of $a + b$?
   <details>
     <summary>Answer</summary>
     1
+  </details>
+  <details>
+    <summary>Hint</summary>
+    <ul>
+      <li>Polynomial Synthetic Division</li>
+    </ul>
   </details>
    <br />
 
@@ -34,12 +47,24 @@ permalink: "ip/polynomial"
     <summary>Answer</summary>
     1/1008
   </details>
+  <details>
+    <summary>Hint</summary>
+    <ul>
+      <li>Polynomial Factor Theorem</li>
+    </ul>
+  </details>
    <br />
 
 - Given distinct real numbers $a$, $b$, $c$, what's the simplified form of the algebraic expression $f(x) = \frac{a^2(x - b)(x - c)}{(a - b)(a - c)} + \frac{b^2(x - c)(x - a)}{(b - c)(b - a)} + \frac{c^2(x - a)(x - b)}{(c - a)(c - b)}$.
   <details>
     <summary>Answer</summary>
     f(x)=x<sup>2</sup>
+  </details>
+  <details>
+    <summary>Hint</summary>
+    <ul>
+      <li>Identity Theorem for Polynomials</li>
+    </ul>
   </details>
    <br />
 
@@ -48,12 +73,24 @@ permalink: "ip/polynomial"
     <summary>Answer</summary>
     1996
   </details>
+  <details>
+    <summary>Hint</summary>
+    <ul>
+      <li>Vieta's Formula.</li>
+    </ul>
+  </details>
    <br />
 
 - Given the polynomial with integer coefficients $f(x) = x^5 + a_1x^4 + a_2x^3 + a_3x^2 + a_4x + a_5$, if $f(\sqrt{3} + \sqrt{2}) = 0$ and $f(1) + f(3) = 0$, what's the value of $f(−1)$.
   <details>
     <summary>Answer</summary>
     24
+  </details>
+  <details>
+    <summary>Hint</summary>
+    <ul>
+      <li>Polynomial Factor Theorem</li>
+    </ul>
   </details>
    <br />
 
@@ -62,6 +99,12 @@ permalink: "ip/polynomial"
     <summary>Answer</summary>
     3
   </details>
+  <details>
+    <summary>Hint</summary>
+    <ul>
+      <li>Polynomial Synthetic Division</li>
+    </ul>
+  </details>
    <br />
 
 - If two of the roots of the quartic polynomial $x^4 − 18x^3 + kx^2 + 200x − 1984$ have product $−32$, what is the real number $k$?
@@ -69,12 +112,25 @@ permalink: "ip/polynomial"
     <summary>Answer</summary>
     86
   </details>
+  <details>
+    <summary>Hint</summary>
+    <ul>
+      <li>Vieta's Formula for Quadratic Equation.</li>
+    </ul>
+  </details>
    <br />
 
-- If the quartic polynomial with integer coefficients $f(x)$ satisfies $f(1+\frac{\sqrt{3}}{3}) = 1+\frac{\sqrt{3}}{3}, f(\sqrt{3}) = 7+\sqrt{3}$, what is $f(x)$.
+- If the quartic polynomial with integer coefficients $f(x)$ satisfies $f(1+\sqrt[3]{3}) = 1+\sqrt[3]{3}, f(1+\sqrt{3}) = 7+\sqrt{3}$, what is $f(x)$.
   <details>
     <summary>Answer</summary>
     f(x) = x<sup>4</sup> − 3x<sup>3</sup> + 3x<sup>2</sup> − 3x.
+  </details>
+  <details>
+    <summary>Hint</summary>
+    <ul>
+      <li>$f(a)=b$ means $a$ is the root of $f(x)-b=0$</li>
+      <li>Polynomial Factor Theorem</li>
+    </ul>
   </details>
    <br />
 
@@ -90,12 +146,24 @@ permalink: "ip/polynomial"
     <summary>Answer</summary>
     192
   </details>
+  <details>
+    <summary>Hint</summary>
+    <ul>
+      <li>$c = 0, −2, 4, −6$; $b = 2, −14, 10, 22$; $n = −2, 26, 38, 130$</li>
+    </ul>
+  </details>
    <br />
 
 - If $p(x)$ is a quintic polynomial such that $x = 0$ is a triple root of $p(x) + 1 = 0$ and $x = 1$ is a triple root of $p(x) - 1 = 0$, what is $p(x)$ in expanded form?
   <details>
     <summary>Answer</summary>
     p(x) = 12x<sup>5</sup> − 30x<sup>4</sup> + 20x<sup>3</sup> − 1
+  </details>
+  <details>
+    <summary>Hint</summary>
+    <ul>
+      <li>Polynomial Factor Theorem</li>
+    </ul>
   </details>
    <br />
 
