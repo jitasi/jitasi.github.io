@@ -1,20 +1,62 @@
 ---
 layout: post
 title: "Polynomial, Intensive Practice on"
-date: 2024-01-10 00:12:00 -0700
+date: 2024-01-12 00:12:00 -0700
 tags: ip algebra
 comments: "true"
 inlinecomments: "true"
 mathjax: "true"
 permalink: "ip/polynomial"
 ---
-  Polynomial problems from past papers.
+  Polynomial theorems and problems from past papers.
 
   Difficulty: AMC10/12, AIME
 
 <!--more-->
+### Polynomial Theorems
+- The Division Algorithm
 
-### Problem
+  If $p(x)$ and $d(x) \not\equiv 0$ are any two polynomials then there exist unique polynomials $q(x)$ and $r(x)$ such that $p(x)=d(x) \cdot q(x) + r(x)$ where the degree of $r(x)$ is strictly less than the degree of $d(x)$ when the degree of $d(x) \geq 1$ or else $r(x) \equiv 0$.
+
+- Remainder Theorem
+
+  When any polynomial $p(x)$ is divided by $x-a$ the remainder is $p(a)$.
+
+- Factor Theorem
+
+  $x-a$ is a factor of the polynomial $p(x)$ if and only if $p(a)=0$.
+
+- Maximum Number of Zeros Theorem
+
+  A polynomial cannot have more real zeros than its degree.
+
+- Fundamental Theorem of Algebra
+
+  a) Every polynomial of degree $n \geq 1$ has at least one zero among the complex numbers.
+
+  b) If $p(x)$ denotes a polynomial of degree $n$, then $p(x)$ has exactly $n$ roots, some of which may be either irrational numbers or complex numbers.
+
+- Complex Conjugate Roots Theorem (Complex number roots appear in conjugate pairs)
+
+  If $p(x)$ is any polynomial with real coefficients, and if $a+bi$ is a complex root of the equation $p(x)=0$, then another complex root is its conjugate $a-bi$
+
+- Irrational Conjugate Roots Theorem  (Irrational real roots appear in conjugate pairs)
+
+  Let $p(x)$ be any polynomial with rational real coefficients. If $a+b\sqrt{c}$ is a root of the equation $p(x)=0$ where $\sqrt{c}$ is irrational and $a$ and $b$ are rational, then another root is $a-b\sqrt{c}$ has rational coefficients.)
+
+- Odd Degree Real Root Theorem
+
+  If $p(x)$ has real coefficients and has a degree that is odd then it has at least one real root.
+
+- Intermediate Value Theorem
+
+  If $p(x)$ is any polynomial with real coefficients, and if $p(a)>0$ and $p(b)<0$ then there is at least one real number $c$ between $a$ and $b$ such that $p(c)=0$
+
+- [Vieta’s Formulas and the Identity Theorem](https://sites.math.washington.edu/~mathcircle/circle/2012-13/hw_2013_winter/VietasFormulas.pdf){:target="_blank"}
+
+- [More Polynomial Theorems](https://monks.scranton.edu/files/courses/ProblemSolving/POLYTHEOREMS.pdf){:target="_blank"}
+
+### Problems
 - Given that the polynomial $x^2 - x - 1$ divides $ax^5 + bx^4 + 1$ without a remainder. Find the real numbers $a$ and $b$.
   <details>
     <summary>Answer</summary>
