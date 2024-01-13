@@ -18,6 +18,8 @@ permalink: "ip/polynomial"
 
   If $p(x)$ and $d(x) \not\equiv 0$ are any two polynomials then there exist unique polynomials $q(x)$ and $r(x)$ such that $p(x)=d(x) \cdot q(x) + r(x)$ where the degree of $r(x)$ is strictly less than the degree of $d(x)$ when the degree of $d(x) \geq 1$ or else $r(x) \equiv 0$.
 
+  [Synthetic Division](https://learn.saylor.org/mod/book/view.php?id=54128){:target="_blank"}
+
 - Remainder Theorem
 
   When any polynomial $p(x)$ is divided by $x-a$ the remainder is $p(a)$.
