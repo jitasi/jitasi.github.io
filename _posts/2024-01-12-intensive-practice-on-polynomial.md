@@ -45,7 +45,10 @@ permalink: "ip/polynomial"
 
   If $p(x)$ and $d(x) \not\equiv 0$ are any two polynomials then there exist unique polynomials $q(x)$ and $r(x)$ such that $p(x)=d(x) \cdot q(x) + r(x)$ where the degree of $r(x)$ is strictly less than the degree of $d(x)$ when the degree of $d(x) \geq 1$ or else $r(x) \equiv 0$.
 
-  Synthetic Division Learning Materials
+  Long Division
+  - Cheatsheet: [mathbitsnotebook](https://mathbitsnotebook.com/Algebra2/Polynomials/POPolyDivide.html){:target="_blank"}
+
+  Synthetic Division
   - Cheatsheet: [mathbitsnotebook](https://mathbitsnotebook.com/Algebra2/Polynomials/POPolySynDivide.html){:target="_blank"}
   - More examples and applications: [purplemath](https://www.purplemath.com/modules/synthdiv.htm){:target="_blank"}
   - Divisor is trinomial: [wolfram](https://mathworld.wolfram.com/SyntheticDivision.html){:target="_blank"}
