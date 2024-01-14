@@ -226,6 +226,7 @@ permalink: "ip/polynomial"
   <details>
     <summary>Hint</summary>
     <ul>
+      <li>$3x^3 - nx - n - 2 = (3x^2 + ax + b)(x − c)$</li>
       <li>$c = 0, −2, 4, −6$; $b = 2, −14, 10, 22$; $n = −2, 26, 38, 130$</li>
     </ul>
   </details>
