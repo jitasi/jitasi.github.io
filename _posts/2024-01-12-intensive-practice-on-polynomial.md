@@ -13,6 +13,10 @@ permalink: "ip/polynomial"
   Difficulty: AMC10/12, AIME
 
 <!--more-->
+  - [Definitions](#definitions)
+  - [Theorems](#theorems)
+  - [Problems](#problems)
+
 ### Definitions
 - Polynomial
 
