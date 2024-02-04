@@ -34,3 +34,22 @@ permalink: "pss/coloring-1"
     Color the chessboard with two colors.
   </details>
   <br />
+
+- In a 4x4 grid paper, there is one "-" symbol and 15 "+" symbols. Each time, you can choose any row, column, or diagonal and change the symbols to their opposites simultaneously. Is it possible, through a finite number of operations, to change all symbols to "+"?
+
+  ![img](/assets/pss_imgs/pss-coloring-1-3.png){:width="200px"}
+
+  <details>
+    <summary>Tip</summary>
+    Color the grid with two black and white squares, keep the number of "-" symbols always be odd in the black squares.
+  </details>
+  <br />
+
+- For any group of 6 individuals, there exists either a subset of 3 individuals, each of whom knows the other two, or a subset of 3 individuals, none of whom knows each other.
+
+  <details>
+    <summary>Tip</summary>
+    Coloring, plus pigeonhole principle.
+  </details>
+  <br />
+
